@@ -7,19 +7,20 @@
 }
 .margin-left-xl { margin-left: 3em; }
 
-
+/* estilos del body */
 body {
 	margin: 0 auto;
 	padding: 0;
 }
 
-
+/* Estilos del menu */
 .navbar-default {
   background-color: #fff;
   border-color: #fff;
   padding-top: 10px;
 }
 
+/* imagen de fondo principal */
 .imagen_1{
 	background-image: url("../assets/images/taxi.jpg");
 	 width: 100%;
@@ -30,6 +31,7 @@ body {
 	 padding-bottom: 15em;
 }
 
+/* Caja amarilla en la imagen principal */
 .box-1{
 	background-color: #F7B617;
 	height: auto;
@@ -81,6 +83,26 @@ body {
 
 }
 
+.boton_app {
+	width: 200px;
+	height: 30px;
+	margin-left: 20px;
+	background-color: #fff;
+	color:#000;
+	border-style: none;
+	margin-top: 1em;
+	margin-bottom: 2em;
+
+}
+
+.img_logo_xs{
+	margin-left: 20px;
+	width: 60px;
+	height: 16px;
+
+}
+
+/* Estilos sección 2 */
 .second_section{
 	background-color: #F7B617;
 	height: 30em;
@@ -115,6 +137,7 @@ body {
     border-bottom: 1px solid white;
 }
 
+
 /* Sección tres */
 .imagen_2{
 
@@ -134,6 +157,7 @@ body {
 
 .texto_box-section3{
 	padding-top: 3em;
+	margin-left: 10px;
 	color: #fff;
 }
 
@@ -154,12 +178,11 @@ body {
 }
 
 
-/* Sección 4 */
+/* Estilos Sección 4 */
 
 .text-section4{
 	color: #fff;
 }
-
 
 .text-section5{
 	color: #fff;
@@ -195,6 +218,7 @@ body {
 	font:bold;
 }
 
+/* Los estilos del mapa */
 .mapa{
 	padding: 15px;
 	border: 1px solid white;
@@ -205,13 +229,12 @@ body {
 }
 
 .four_section{
-	background-color: #F7B617;
-	
+	background-color: #F7B617;	
 }
 
+/* Estilos del Footer */
 .footer{
-	background-color: #2B2B2B;
-	
+	background-color: #2B2B2B;	
 }
 
 
@@ -240,7 +263,7 @@ body {
 	left: 0;
 }
 
-
+/* Media query de tamaño dispositivo mobil */
 @media (max-width: 768px) {
   
 .iconos_footer{
@@ -249,10 +272,6 @@ body {
 
 .imagenes_footer{
 	padding-top: 0px;
-}
-
-.iconos_footer{
-	
 }
 
 .parte_1{
@@ -274,7 +293,7 @@ body {
 
 }
 
-
+/* media query de xs para poder aplicarles push y pull */
 @media screen and (max-width: 767px) {
   .col-xs-pull-12 {
     right: 100%;
